@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+//base
+@import "fonts";
+@import "variables";
+@import "base";
+@import "mixins";
+// 순서 중요 변수가 먼저. 
+// 파일명 _ 이용해서 모듈화 해야한다. 
+
+//layout
+@import "header";
+@import "layout";
+@import "footer";
+//나중에 webpack으로 하나로 만들어준다. 
+//vue는 webpack으로 loader해줘야 한다. 

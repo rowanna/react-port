@@ -1,0 +1,81 @@
+/* ------------ youtube ------------ */
+#youtubeCont {
+    background: #F0EEEB;
+}
+.siteWrap {
+    font-family: 'Chosunilbo_myungjo';
+    padding-bottom: 20vh;
+}
+.siteWrap h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.siteWrap .site {
+    display: flex;
+    justify-content: space-between;
+}
+.siteWrap .site .siteLeft {
+    flex: 0 0 30%;
+}
+.siteWrap .site .siteLeft img {
+    width: 100%;
+}
+.siteWrap .site .siteRight {
+    flex: 0 0 60%;
+}
+.siteWrap .site .siteRight .srText {
+    display: flex;
+    justify-content: space-between;
+}
+.siteWrap .site .siteRight .srText h3 {
+    flex: 0 0 30%;
+    font-weight: normal;
+    font-size: 18px;
+}
+.siteWrap .site .siteRight .srText p {
+    flex: 0 0 70%;
+    margin-top: 0;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.siteWrap .site .siteRight .srText p .btn {
+    cursor: pointer;
+}
+.siteWrap .site .siteRight .srText p .btn svg {
+    fill:none;
+    height:16px;
+    width:16px;
+    stroke:currentColor;
+    stroke-width:4;
+    overflow:visible;
+}
+.siteWrap .siteList {
+    border-bottom: 2px solid rgba(0,0,0,1);
+    position: relative;
+    margin-top: 50px;
+}
+
+.siteWrap .siteList li {
+    margin: 0;
+    list-style: none;
+    border-top: 1px solid #000;
+    position: relative;
+}
+.siteWrap .siteList li span {
+    display: inline-block;
+    padding: 21px 0;
+    font-size: 16px;
+    font-family: 'S-CoreDream-3Light';
+    box-sizing: border-box;
+}
+.siteWrap .siteList li span:nth-child(1) {
+    width: 10%; text-align: center;
+}
+.siteWrap .siteList li span:nth-child(2) {
+    width: 40%;
+}
+.siteWrap .siteList li span:nth-child(3) {
+    width: 48%;
+}
+/* ------------ youtube ------------ */

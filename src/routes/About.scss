@@ -1,0 +1,45 @@
+// aboutCont
+#aboutCont {
+    background: #F0EEEB;
+}
+.aboutImg {
+    padding-bottom: 20vh;
+
+    > div {
+        font-size: 18px;
+        font-family: 'Chosunilbo_myungjo';
+    }
+
+    > div:nth-child(1){
+        .aiLeft {
+            width: 100%;
+            text-align: right;
+        }
+        .aiRight {
+            margin: 11vh 0 0 32%;
+            text-align: right;
+        }
+    }
+    > div:nth-child(2){
+        margin-top: 25vh;
+
+        .aiRight {
+            margin: 11vh 32% 0 0;
+        }
+    }
+    > div:nth-child(3){
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 25vh;
+
+        .aiLeft {
+            flex: 0 0 58%;
+        }
+        .aiRight {
+            flex: 0 0 38%;
+        }
+    }
+    
+}
+
